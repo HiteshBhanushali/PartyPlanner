@@ -1,0 +1,53 @@
+/*
+ * ::::::::::: Custom Styles :::::::::::
+ * Note: use this file to add or override any other styles.
+ * DON'T EDIT TEMPLATE CSS/SCSS FILES DIRECTLY, JUST USE THIS FILE.
+ */
+
+.tp-caption.small_text {
+    color: rgba(255, 255, 255, .9);
+}
+
+.blog-post .entry-header .entry-title {
+    font-size: 23px;
+}
+
+.widget-title {
+    color: #ffcc00;
+    font-size: 20px;
+}
+
+body.footer-background.dark-color:not(.primary-color) footer a:not(.button),
+body.footer-background.dark-color:not(.primary-color) footer p,
+body.footer-background.dark-color:not(.primary-color) .footer-bottom-content a,
+body.footer-background.dark-color:not(.primary-color) .footer-bottom-content p {
+    color: #fff;
+}
+
+.services-section .box-item p,
+.services-section p,
+.price-list-section .counterup.style-1 .level-item>div .heading {
+    color: #fff;
+}
+
+.works-latest .works-latest-item .works-latest-item-meta h5 a,
+.works-latest .works-latest-item .works-latest-item-meta h3 a,
+.works-latest .works-latest-item .works-latest-item-meta h5,
+.works-latest-item .works-latest-item-meta h3 {
+    opacity: 1;
+}
+
+body .image-hover figure img {
+    min-height: auto !important;
+}
+
+@media screen and (max-width:768px) {
+    body .works-latest .works-latest-item .works-latest-item-meta h3 {
+        font-size: 18px;
+    }
+    body .image-hover figure img {
+        min-height: auto !important;
+    }
+}
+
+/*# sourceMappingURL=_maps/custom.css.map */
